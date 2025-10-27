@@ -355,9 +355,6 @@ body {
     .hero-right h1 {
         text-align: center;
     }
-    .hamburger {
-        display: flex;
-    }
     .hamburger span {
         width: 25px;
         height: 3px;
@@ -978,7 +975,7 @@ transform: translateY(-20px);
 /*Responsive Design*/
 @media (max-width: 768px) {
   .nav-menu{
-   display: none
+   display: block;
   }
 .hamburger{
  display: flex;
@@ -1020,4 +1017,5 @@ padding: 1.5rem;
 .projects-grid {gap: 1.5rem}
 
 }
+
 
