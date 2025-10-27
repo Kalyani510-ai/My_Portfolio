@@ -50,8 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
 
     // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-menu a'); 
     
     hamburger.addEventListener('click', function() {
         navMenu.classList.toggle('active');
@@ -297,4 +299,5 @@ style.textContent = `
         }
     }
 `;
+
 document.head.appendChild(style);
