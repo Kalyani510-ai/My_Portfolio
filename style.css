@@ -355,6 +355,9 @@ body {
     .hero-right h1 {
         text-align: center;
     }
+    .hamburger {
+        display: flex;
+    }
 }
 
 /* Buttons */
@@ -1008,4 +1011,5 @@ padding: 1.5rem;
 .about .projects .contact {padding: 3rem 0;}
 .section-header { margin-bottom: 2rem;}
 .projects-grid {gap: 1.5rem}
+
 }
